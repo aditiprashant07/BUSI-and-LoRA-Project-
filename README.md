@@ -20,10 +20,7 @@ This project focuses on the classification of breast ultrasound images utilizing
    ```bash
    git clone https://github.com/aditiprashant07/BUSI-and-LoRA-Project-
    ```
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
 
 ## Usage
 1. Preprocess the images in the dataset.
