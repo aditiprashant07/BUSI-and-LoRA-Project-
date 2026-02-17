@@ -31,4 +31,4 @@ This project focuses on the classification of breast ultrasound images utilizing
 3. Evaluate the model's performance.
 
 ## Conclusion
-This project aims to contribute to the field of medical imaging by providing a robust method for breast ultrasound image classification, facilitating early detection and treatment of breast cancer.
+This project aims to contribute to the field of medical imaging by providing a robust method for breast ultrasound image classification, facilitating early detection and treatment of breast cancer. This project was inspired by the LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS research paper. https://arxiv.org/pdf/2106.09685. 
