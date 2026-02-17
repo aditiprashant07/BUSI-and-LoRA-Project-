@@ -23,4 +23,7 @@
 ## Grad-CAM Visualization
 - Description of the benign ultrasound image showing light-blue mask in ROI.
 
+- <img width="443" height="435" alt="image" src="https://github.com/user-attachments/assets/fe713cc6-6fad-46a1-93e8-bd834f16f196" />
+
+
 *This report outlines the training process and results for the medical image classification model.*
