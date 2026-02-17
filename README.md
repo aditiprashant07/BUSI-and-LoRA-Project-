@@ -27,10 +27,7 @@ This project focuses on the classification of breast ultrasound images utilizing
 
 ## Usage
 1. Preprocess the images in the dataset.
-2. Train the model using LoRA and DeiT by running:
-   ```bash
-   python train.py
-   ```
+2. Train the model 
 3. Evaluate the model's performance.
 
 ## Conclusion
