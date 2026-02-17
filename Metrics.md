@@ -1,29 +1,36 @@
 # Medical Image Classification Training Report
 
 ## Training Loss over Epochs
-- **Epoch 1**: Loss = 0.9926
-- **Epoch 2**: Loss = 0.6598
-- **Epoch 3**: Loss = 0.4764
-- **Epoch 4**: Loss = 0.3652
-- **Epoch 5**: Loss = 0.2997
+- **Epoch 1**: Loss = 0.9085303518591048
+- **Epoch 2**: Loss = 0.651981007732168
+- **Epoch 3**: Loss = 0.4881929002607925
+- **Epoch 4**: Loss = 0.3654937744140625
+- **Epoch 5**: Loss = 0.29235759264306177
 
 ## Final Validation Metrics
-- **Final Validation Accuracy**: 86.71%
+- **Final Validation Accuracy**: 85.44303797468355 %
 
 ## Classification Report
 | Class     | Precision | Recall | F1 Score | Support |
 |-----------|-----------|--------|----------|---------|
-| Benign    | 0.89      | 0.92   | 0.91     | 201     |
-| Malignant | 0.77      | 0.71   | 0.74     | 66      |
-| Normal    | 0.88      | 0.86   | 0.87     | 49      |
+| Benign    |0.88      |0.88      |0.88       |174  |
+| Malignant |0.84      |0.79      |0.82        |96    |
+| Normal    |0.79      |0.89      |0.84       | 46     |
 
 ## Code Optimization Recommendations
 - Update from `torch.cuda.amp.autocast()` to `torch.amp.autocast('cuda')`
 
 ## Grad-CAM Visualization
-- Description of the benign ultrasound image showing light-blue mask in ROI.
+- Benign
+  <img width="1694" height="761" alt="Screenshot 2026-02-17 134310" src="https://github.com/user-attachments/assets/b2e6dff7-58f1-40be-becc-9a6f84c0c721" />
 
-- <img width="443" height="435" alt="image" src="https://github.com/user-attachments/assets/fe713cc6-6fad-46a1-93e8-bd834f16f196" />
+- Malignant
+  <img width="1636" height="763" alt="Screenshot 2026-02-17 134318" src="https://github.com/user-attachments/assets/267bd41d-4b79-4ff2-ad8c-308ba1a834e0" />
+
+- Normal 
+<img width="1616" height="760" alt="Screenshot 2026-02-17 134326" src="https://github.com/user-attachments/assets/e759fcc9-4e42-4a04-950e-5b3ccb5e29f0" />
+
+
 
 
 *This report outlines the training process and results for the medical image classification model.*
